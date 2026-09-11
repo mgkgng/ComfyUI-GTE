@@ -1,0 +1,5 @@
+# Python deps for the gte pack. ComfyUI Manager installs THIS file on pack
+# install, so it must stay limited to what the pack needs.
+#
+# Deliberately empty: every node here runs on torch, numpy and Pillow, all of
+# which ComfyUI already provides.
